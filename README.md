@@ -20,7 +20,7 @@ Implementation using Python code
 Testing the server and client 
 
 ## PROGRAM:
-#Server code:
+### Server code:
 ```
 import socket
 
@@ -55,7 +55,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 print(f"Error receiving/sending data: {e}")
                 exit()
 ```
-#Client Code:
+### Client Code:
 ```
 import socket
 HOST = "127.0.0.1"  # The server's hostname or IP address
@@ -69,9 +69,9 @@ print(f"Received {data!r}")
 ```
 
 ## OUTPUT:
-#Server code:
+### Server code:
 ![image](https://github.com/lakshman1206/Echoserver/assets/129931784/fdc9e80c-8a9a-4b96-8e61-a4f42d57e8b1)
-#Client Code:
+### Client Code:
 ![image](https://github.com/lakshman1206/Echoserver/assets/129931784/82a350eb-22e6-44bb-b4ce-7c46dacd5158)
 ## RESULT:
 The program is executed successfully
